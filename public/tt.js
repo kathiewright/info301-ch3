@@ -1,16 +1,16 @@
 /*    JavaScript 6th Edition
- *    Chapter 3
- *    Chapter case
-
+ *    Unit 3
+ *  
+ 
  *    Tipton Turbines
  *    Variables and functions
  *    Author: 
  *    Date:   
-
+ 
  *    Filename: tt.js
  */
-
-//global variables
+ 
+// global variables
 var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", 
    "Thursday", "Friday", "Saturday"];
 var opponents = ["Lightning", "Combines", "Combines", 
@@ -27,6 +27,5 @@ var gameLocation =
     "home", "home", "home", "home", "away", "away", "away",
     "away", "", "away", "away", "away", "away", "away",
     "away", "", "home", "home", "home", "home", "home",
-    "home", "", ""]; 
-
-
+    "home", "", ""];
+ 
