@@ -6,12 +6,20 @@ Tipton Turbines(Chapter 3) Code Snippets
 
     //function to place daysOfWeek values in the header row cells  Ref:  pp 167-168
     function addColumnHeaders() {
+    
+    for(var i = 0; i < 7; i++){
+      //for each header element, assign the corresponding array value
+          document.getElementsByTagName("th")[i].innerHTML = daysOfWeek[i];	
+    }
+    
+    /* alternate loop structure using while(){}
+    
       var i = 0;         			// i is the counter
       while (i < 7) {     		// note that the last element is index # 6 
       //for each header element, assign the corresponding array value
           document.getElementsByTagName("th")[i].innerHTML = daysOfWeek[i];	
         i++;			//increment the counter
-      }
+      } */
     }
     
     //function to populate the calendar with headers, opponents & locations
@@ -22,7 +30,7 @@ Tipton Turbines(Chapter 3) Code Snippets
     }
 
     //runs setUpPage() function when the page loads
-    window.addEventListener("load", setUpPage, false);
+    window.addEventListener("load", setUpPage);
 
 
 ------------------------------------------------------------------------------------------------
